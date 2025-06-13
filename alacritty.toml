@@ -1,0 +1,26 @@
+live_config_reload = true
+import = ["~/.config/alacritty/catppuccin/catppuccin-mocha.toml"]
+
+#if changing to zsh
+#[terminal]
+#shell = { program = "/bin/zsh", args = ["-l] }
+
+
+[window]
+opacity = 0.8
+
+
+padding.x = 20
+padding.y = 30
+
+decorations = "Full"
+
+#decorations_theme_variant = "Dark"
+
+
+[colors]
+primary.foreground = "#1cbfbc"
+
+primary.background = "#181818"
+
+
